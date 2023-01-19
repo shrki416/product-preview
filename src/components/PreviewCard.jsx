@@ -1,16 +1,15 @@
 import React from "react";
+import imageProductDesktop from "../assets/images/image-product-desktop.jpg";
+import imageProductMobile from "../assets/images/image-product-mobile.jpg";
 
 function PreviewCard() {
   return (
     <main>
       <article>
         <picture>
-          <source
-            srcSet="src/assets/images/image-product-desktop.jpg"
-            media="(min-width: 600px)"
-          />
+          <source srcSet={imageProductDesktop} media="(min-width: 600px)" />
           <img
-            src="src/assets/images/image-product-mobile.jpg"
+            src={imageProductMobile}
             alt="Gabrielle Essense perfume bottle laying flat on a table with green leaves above and below it"
           />
         </picture>
