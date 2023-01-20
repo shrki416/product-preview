@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components/macro";
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     :root {
@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
 
         display: grid;
         place-content: center;
-        margin: 1rem;
+        /* margin: 1rem; */
     }
 `;
 
